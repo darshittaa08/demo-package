@@ -1,0 +1,19 @@
+{
+  "name": "demo-package",
+  "version": "1.0.0",
+  "description": "A public package to be reused",
+  "main": "testing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshittaa08/demo-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshittaa08/demo-package/issues"
+  },
+  "homepage": "https://github.com/darshittaa08/demo-package#readme"
+}
