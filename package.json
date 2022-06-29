@@ -4,7 +4,9 @@
   "description": "A public package to be reused",
   "main": "testing.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "webpack --mode development",
+    "deploy": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,6 @@
   },
   "homepage": "https://github.com/darshittaa08/demo-package#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@darshittaa08"
+    "@darshittaa08:registry": "https://npm.pkg.github.com"
   },
 }
